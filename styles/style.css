@@ -1,0 +1,31 @@
+.brewing-garden-app .form-group {
+  margin-bottom: 6px;
+}
+.brewing-garden-app .plots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.brewing-garden-app .plot {
+  border: 1px solid #7773;
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+  font-size: 12px;
+}
+.brewing-garden-app .plot.ready {
+  border-color: #4caf50;
+}
+.brewing-garden-app .plot.growing {
+  border-color: #d4a017;
+}
+.brewing-garden-app .log {
+  margin-top: 8px;
+  max-height: 160px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+.brewing-garden-app .notice {
+  color: #b33;
+  font-style: italic;
+}
